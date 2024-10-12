@@ -59,5 +59,9 @@ namespace AbbieGillespieProject1.Model
             decimal Mpg = mpg;
             decimal Price = price;
         }
+
+        public Car()
+        {
+        }
     }
 }
