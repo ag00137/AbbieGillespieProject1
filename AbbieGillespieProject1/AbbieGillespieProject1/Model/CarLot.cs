@@ -63,7 +63,7 @@ namespace AbbieGillespieProject1.Model
         /// <param name="make">The make of the car</param>
         /// <param name="model">The model of the car</param>
         /// <returns>the car to purchase or null</returns>
-        public Car PurchaseCar(string make, string model)
+        public Car? PurchaseCar(string make, string model)
         {
             var car = FindCarByMakeModel(make, model);
             if (car != null)
@@ -103,7 +103,7 @@ namespace AbbieGillespieProject1.Model
         /// Finds the least expensive car.
         /// </summary>
         /// <returns>the least expensive car in the list or null if there is none</returns>
-        public Car FindLeastExpensiveCar()
+        public Car? FindLeastExpensiveCar()
         {
             if (_inventory.Count != 0)
             {
@@ -119,7 +119,7 @@ namespace AbbieGillespieProject1.Model
         /// Finds the most expensive car.
         /// </summary>
         /// <returns>the most expensive car in the list</returns>
-        public Car FindMostExpensiveCar()
+        public Car? FindMostExpensiveCar()
         {
             if (_inventory.Count != 0)
             {
@@ -135,7 +135,7 @@ namespace AbbieGillespieProject1.Model
         /// Finds the car with the best mpg.
         /// </summary>
         /// <returns>the car with the best mpg in the list</returns>
-        public Car FindBestMPGCar()
+        public Car? FindBestMPGCar()
         {
             if (_inventory.Count != 0)
             {
@@ -151,7 +151,7 @@ namespace AbbieGillespieProject1.Model
         /// Finds the car with the worst mpg.
         /// </summary>
         /// <returns>the car with the worst mpg in the list</returns>
-        public Car FindWorstMPGCar()
+        public Car? FindWorstMPGCar()
         {
             if (_inventory.Count != 0)
             {

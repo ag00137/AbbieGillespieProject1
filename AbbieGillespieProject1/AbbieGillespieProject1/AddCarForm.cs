@@ -14,7 +14,7 @@ namespace AbbieGillespieProject1
     public partial class AddCarForm : Form
     {
         public Car newCar;
-        public Car newCarToAdd;
+        public Car? newCarToAdd;
 
         public AddCarForm()
         {
