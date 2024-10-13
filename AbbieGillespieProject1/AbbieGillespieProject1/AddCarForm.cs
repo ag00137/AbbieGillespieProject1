@@ -22,7 +22,7 @@ namespace AbbieGillespieProject1
             newCar = new Car();
         }
 
-        private void addShopperBtn_Click(object sender, EventArgs e)
+        private void AddNewCarBtn_Click(object sender, EventArgs e)
         {
             newCarToAdd = new Car();
 

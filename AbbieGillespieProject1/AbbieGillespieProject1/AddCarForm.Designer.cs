@@ -36,7 +36,7 @@
             carPriceTxtBox = new TextBox();
             MPGTxtBox = new TextBox();
             carModelTxtBox = new TextBox();
-            addShopperBtn = new Button();
+            AddNewCarBtn = new Button();
             SuspendLayout();
             // 
             // CarMakeLbl
@@ -103,22 +103,22 @@
             carModelTxtBox.Size = new Size(150, 31);
             carModelTxtBox.TabIndex = 7;
             // 
-            // addShopperBtn
+            // AddNewCarBtn
             // 
-            addShopperBtn.Location = new Point(86, 271);
-            addShopperBtn.Name = "addShopperBtn";
-            addShopperBtn.Size = new Size(160, 34);
-            addShopperBtn.TabIndex = 8;
-            addShopperBtn.Text = "Add Shopper";
-            addShopperBtn.UseVisualStyleBackColor = true;
-            addShopperBtn.Click += addShopperBtn_Click;
+            AddNewCarBtn.Location = new Point(110, 234);
+            AddNewCarBtn.Name = "AddNewCarBtn";
+            AddNewCarBtn.Size = new Size(112, 34);
+            AddNewCarBtn.TabIndex = 8;
+            AddNewCarBtn.Text = "Add";
+            AddNewCarBtn.UseVisualStyleBackColor = true;
+            AddNewCarBtn.Click += AddNewCarBtn_Click;
             // 
             // AddCarForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(338, 450);
-            Controls.Add(addShopperBtn);
+            ClientSize = new Size(338, 293);
+            Controls.Add(AddNewCarBtn);
             Controls.Add(carModelTxtBox);
             Controls.Add(MPGTxtBox);
             Controls.Add(carPriceTxtBox);
@@ -143,6 +143,6 @@
         private TextBox carPriceTxtBox;
         private TextBox MPGTxtBox;
         private TextBox carModelTxtBox;
-        private Button addShopperBtn;
+        private Button AddNewCarBtn;
     }
 }

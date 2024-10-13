@@ -23,6 +23,11 @@ namespace AbbieGillespieProject1.Model
 
         private List<Car> _cars;
 
+        public Shopper() 
+        { 
+
+        }
+
         /// <summary>
         /// Initializes a new instance of the shopper class.
         /// </summary>
@@ -76,5 +81,10 @@ namespace AbbieGillespieProject1.Model
         /// Returns the list of cars.
         /// </summary>
         public List<Car> Cars => _cars;
+
+        public override string ToString()
+        {
+            return $"Shopper: {Name}, Money Available: {MoneyAvailable}";
+        }
     }
 }

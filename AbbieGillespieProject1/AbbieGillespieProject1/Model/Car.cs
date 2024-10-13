@@ -63,5 +63,10 @@ namespace AbbieGillespieProject1.Model
         public Car()
         {
         }
+
+        public override string ToString()
+        {
+            return $"{make} {model} {price} {mpg}mpg";
+        }
     }
 }

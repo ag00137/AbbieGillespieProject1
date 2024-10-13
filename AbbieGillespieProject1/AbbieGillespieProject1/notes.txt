@@ -1,0 +1,2 @@
+﻿I do not have the defualt cars connected to the CarLotForm and I have code for the purchase car button but it is not working.
+Then I am missing the detailed viewing on the form.

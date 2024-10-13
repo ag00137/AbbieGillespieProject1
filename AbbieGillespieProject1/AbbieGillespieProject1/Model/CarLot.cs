@@ -172,5 +172,10 @@ namespace AbbieGillespieProject1.Model
         /// Returns the list of the stores inventory.
         /// </summary>
         public List<Car> Inventory => _inventory;
+
+        public override string ToString()
+        {
+            return $"{Inventory}";
+        }
     }
 }
