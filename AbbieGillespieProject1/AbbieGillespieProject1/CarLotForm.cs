@@ -21,16 +21,12 @@ namespace AbbieGillespieProject1
 
         private void LoadCarLotIntoListBox()
         {
-            // Clear any existing items in the list box
             CarLotListBox.Items.Clear();
 
-            // Loop through the inventory and add each car's info to the list box
             foreach (var car in _carLot.Inventory)
             {
-                // Create a user-friendly display string for each car
                 string carDetails = $"{car.make} {car.model}";
 
-                // Add the car details to the ListBox
                 CarLotListBox.Items.Add(carDetails);
             }
         }
